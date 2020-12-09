@@ -16,6 +16,7 @@ public class Circle extends Shape {
                 ", radius=" + radius +
                 String.format(", area=%.2f", getArea())+
                 '}';
+
     }
 
     private float getArea() {
