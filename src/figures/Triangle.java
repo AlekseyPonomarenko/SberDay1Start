@@ -24,7 +24,9 @@ public class Triangle extends Shape {
                 '}';
     }
 
-    public double getArea() {
-        return (double) 0.5*a*b*Math.sin(angle);
+    public float getArea() {
+        Double sinAngle = Math.sin(angle);
+        return (float) 0.5*a*b*sinAngle.floatValue();
     }
+
 }
