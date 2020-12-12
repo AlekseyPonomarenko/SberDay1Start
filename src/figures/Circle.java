@@ -19,8 +19,8 @@ public class Circle extends Shape {
 
     }
 
-    private float getArea() {
-        return (float) Math.PI*radius*radius;
+    public double getArea() {
+        return (double) Math.PI*radius*radius;
     }
 
 }

@@ -14,7 +14,5 @@ public abstract class Shape {
         uuid=UUID.randomUUID();
     }
 
-
-
-
+    abstract double getArea();
 }
